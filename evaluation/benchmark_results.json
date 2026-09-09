@@ -1,0 +1,235 @@
+{
+  "benchmark_timestamp": "2026-09-09 15:38:35",
+  "dataset_size": 200,
+  "systems": [
+    {
+      "system_name": "Baseline 1 (Trivial Regex/Canned)",
+      "elapsed_seconds": 0.02,
+      "intent_accuracy": 0.545,
+      "intent_macro_f1": 0.4867,
+      "escalation_accuracy": 0.62,
+      "escalation_precision": 0.5312,
+      "escalation_recall": 0.2179,
+      "escalation_f1": 0.3091,
+      "under_escalation_rate": 0.7821,
+      "cost_weighted_safety_risk": 1.6,
+      "avg_rouge_l": 0.1011,
+      "avg_bleu_4": 0.0057,
+      "avg_grounding_recall": 0.38,
+      "avg_judge_score": 3.34,
+      "intent_breakdown": {
+        "SOFTWARE_OS_TROUBLESHOOTING": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 48
+        },
+        "HARDWARE_BATTERY_REPAIR": {
+          "precision": 0.85,
+          "recall": 0.5312,
+          "f1": 0.6538,
+          "support": 32
+        },
+        "ACCOUNT_APPLE_ID_SECURITY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 32
+        },
+        "BILLING_SUBSCRIPTIONS_REFUNDS": {
+          "precision": 0.7045,
+          "recall": 1.0,
+          "f1": 0.8267,
+          "support": 31
+        },
+        "DEVICE_SETUP_COMPATIBILITY": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 28
+        },
+        "OUT_OF_SCOPE_FEEDBACK_RANT": {
+          "precision": 0.2816,
+          "recall": 1.0,
+          "f1": 0.4394,
+          "support": 29
+        }
+      },
+      "escalation_breakdown": {
+        "accuracy": 0.62,
+        "precision": 0.5312,
+        "recall": 0.2179,
+        "f1": 0.3091,
+        "true_positives": 17,
+        "false_positives": 15,
+        "false_negatives": 61,
+        "true_negatives": 107,
+        "under_escalation_rate": 0.7821,
+        "cost_weighted_safety_risk": 1.6
+      }
+    },
+    {
+      "system_name": "Baseline 2 (Simple BM25 Copy)",
+      "elapsed_seconds": 0.07,
+      "intent_accuracy": 0.58,
+      "intent_macro_f1": 0.5639,
+      "escalation_accuracy": 0.61,
+      "escalation_precision": 0.0,
+      "escalation_recall": 0.0,
+      "escalation_f1": 0.0,
+      "under_escalation_rate": 1.0,
+      "cost_weighted_safety_risk": 1.95,
+      "avg_rouge_l": 0.198,
+      "avg_bleu_4": 0.0754,
+      "avg_grounding_recall": 0.855,
+      "avg_judge_score": 4.09,
+      "intent_breakdown": {
+        "SOFTWARE_OS_TROUBLESHOOTING": {
+          "precision": 0.9667,
+          "recall": 0.6042,
+          "f1": 0.7436,
+          "support": 48
+        },
+        "HARDWARE_BATTERY_REPAIR": {
+          "precision": 0.4237,
+          "recall": 0.7812,
+          "f1": 0.5495,
+          "support": 32
+        },
+        "ACCOUNT_APPLE_ID_SECURITY": {
+          "precision": 0.2105,
+          "recall": 0.125,
+          "f1": 0.1569,
+          "support": 32
+        },
+        "BILLING_SUBSCRIPTIONS_REFUNDS": {
+          "precision": 0.4595,
+          "recall": 0.5484,
+          "f1": 0.5,
+          "support": 31
+        },
+        "DEVICE_SETUP_COMPATIBILITY": {
+          "precision": 0.6585,
+          "recall": 0.9643,
+          "f1": 0.7826,
+          "support": 28
+        },
+        "OUT_OF_SCOPE_FEEDBACK_RANT": {
+          "precision": 1.0,
+          "recall": 0.4828,
+          "f1": 0.6512,
+          "support": 29
+        }
+      },
+      "escalation_breakdown": {
+        "accuracy": 0.61,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 78,
+        "true_negatives": 122,
+        "under_escalation_rate": 1.0,
+        "cost_weighted_safety_risk": 1.95
+      }
+    },
+    {
+      "system_name": "Proposed AI Support Agent",
+      "elapsed_seconds": 0.08,
+      "intent_accuracy": 0.965,
+      "intent_macro_f1": 0.9673,
+      "escalation_accuracy": 0.93,
+      "escalation_precision": 1.0,
+      "escalation_recall": 0.8205,
+      "escalation_f1": 0.9014,
+      "under_escalation_rate": 0.1795,
+      "cost_weighted_safety_risk": 0.35,
+      "avg_rouge_l": 0.29,
+      "avg_bleu_4": 0.1247,
+      "avg_grounding_recall": 0.995,
+      "avg_judge_score": 4.47,
+      "intent_breakdown": {
+        "SOFTWARE_OS_TROUBLESHOOTING": {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333,
+          "support": 48
+        },
+        "HARDWARE_BATTERY_REPAIR": {
+          "precision": 0.9143,
+          "recall": 1.0,
+          "f1": 0.9552,
+          "support": 32
+        },
+        "ACCOUNT_APPLE_ID_SECURITY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 32
+        },
+        "BILLING_SUBSCRIPTIONS_REFUNDS": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 31
+        },
+        "DEVICE_SETUP_COMPATIBILITY": {
+          "precision": 0.871,
+          "recall": 0.9643,
+          "f1": 0.9153,
+          "support": 28
+        },
+        "OUT_OF_SCOPE_FEEDBACK_RANT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 29
+        }
+      },
+      "escalation_breakdown": {
+        "accuracy": 0.93,
+        "precision": 1.0,
+        "recall": 0.8205,
+        "f1": 0.9014,
+        "true_positives": 64,
+        "false_positives": 0,
+        "false_negatives": 14,
+        "true_negatives": 122,
+        "under_escalation_rate": 0.1795,
+        "cost_weighted_safety_risk": 0.35
+      }
+    }
+  ],
+  "human_judge_agreement": {
+    "sample_size": 50,
+    "cohen_kappa": 0.5681,
+    "spearman_rho": 0.7236,
+    "pearson_r": 0.7751,
+    "overall_mae": 0.876,
+    "confusion_matrix": {
+      "HIGH": {
+        "HIGH": 21,
+        "MODERATE": 3,
+        "LOW": 1
+      },
+      "MODERATE": {
+        "HIGH": 9,
+        "MODERATE": 6,
+        "LOW": 0
+      },
+      "LOW": {
+        "HIGH": 0,
+        "MODERATE": 0,
+        "LOW": 10
+      }
+    },
+    "dimension_mae": {
+      "grounding_mae": 0.78,
+      "helpfulness_mae": 0.68,
+      "brand_tone_mae": 1.36,
+      "escalation_safety_mae": 1.14
+    },
+    "interpretation": "Moderate Agreement"
+  }
+}

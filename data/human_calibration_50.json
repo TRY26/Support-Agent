@@ -1,0 +1,802 @@
+[
+  {
+    "id": "calib_001",
+    "customer_text": "@AppleSupport My iPhone 14 screen is completely unresponsive to touch after I woke up. It's stuck on the lock screen clock.",
+    "candidate_reply": "We'd like to help get your iPhone 14 responding again. Please perform a force restart: press and quickly release Volume Up, press and quickly release Volume Down, then hold the Side button until you see the Apple logo: https://support.apple.com/HT201412",
+    "reference_reply": "We'd like to help get your iPhone 14 responding again. Please perform a force restart: press and quickly release Volume Up, press and quickly release Volume Down, then hold the Side button until you see the Apple logo: https://support.apple.com/HT201412",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_002",
+    "customer_text": "@AppleSupport Wi-Fi keeps disconnecting every few minutes on my iPad Air since updating to iPadOS 17.",
+    "candidate_reply": "Let's troubleshoot those Wi-Fi drops. Please try resetting network settings under Settings > General > Transfer or Reset iPad > Reset > Reset Network Settings. Also restart your Wi-Fi router to test: https://support.apple.com/HT201263",
+    "reference_reply": "Let's troubleshoot those Wi-Fi drops. Please try resetting network settings under Settings > General > Transfer or Reset iPad > Reset > Reset Network Settings. Also restart your Wi-Fi router to test: https://support.apple.com/HT201263",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_003",
+    "customer_text": "@AppleSupport How do I clear cache for Safari on my iPhone 13? Some web pages are failing to load.",
+    "candidate_reply": "You can clear your Safari cache by going to Settings > Safari and tapping 'Clear History and Website Data'. Let us know if the pages load properly after doing so!",
+    "reference_reply": "You can clear your Safari cache by going to Settings > Safari and tapping 'Clear History and Website Data'. Let us know if the pages load properly after doing so!",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_004",
+    "customer_text": "@AppleSupport The camera app is completely black when I open it on my iPhone 12. Both front and back.",
+    "candidate_reply": "We want to help get your camera working. First, force close the Camera app and perform a restart. If third-party camera apps work, check Settings > Privacy > Camera. Let us know what happens: https://support.apple.com/HT201252",
+    "reference_reply": "We want to help get your camera working. First, force close the Camera app and perform a restart. If third-party camera apps work, check Settings > Privacy > Camera. Let us know what happens: https://support.apple.com/HT201252",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_005",
+    "customer_text": "@AppleSupport Bluetooth keeps unpairing my AirPods Pro 2 whenever I answer an incoming phone call on iOS 17.",
+    "candidate_reply": "Let's get your AirPods connected reliably. Go to Settings > Bluetooth, tap the 'i' icon next to your AirPods, and tap Forget This Device. Then put your AirPods in the case, hold the back button for 15 seconds to reset, and re-pair: https://support.apple.com/HT201557",
+    "reference_reply": "Let's get your AirPods connected reliably. Go to Settings > Bluetooth, tap the 'i' icon next to your AirPods, and tap Forget This Device. Then put your AirPods in the case, hold the back button for 15 seconds to reset, and re-pair: https://support.apple.com/HT201557",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_006",
+    "customer_text": "@AppleSupport I've already done 4 force restarts, wiped my iPhone 15 Pro via DFU mode with Mac, and it still boots into a white screen with vertical lines. I need this phone for work tomorrow.",
+    "candidate_reply": "We understand the urgency and appreciate you trying those extensive steps. Since DFU restore did not resolve the white screen, this requires in-person hardware evaluation. Please DM us so we can arrange immediate priority service for you.",
+    "reference_reply": "We understand the urgency and appreciate you trying those extensive steps. Since DFU restore did not resolve the white screen, this requires in-person hardware evaluation. Please DM us so we can arrange immediate priority service for you.",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_007",
+    "customer_text": "@AppleSupport What is considered normal battery health capacity for an iPhone 13 after 1.5 years of use?",
+    "candidate_reply": "A normal battery is designed to retain up to 80% of its original capacity at 500 complete charge cycles under normal operating conditions. You can check your current percentage in Settings > Battery > Battery Health: https://support.apple.com/HT204051",
+    "reference_reply": "A normal battery is designed to retain up to 80% of its original capacity at 500 complete charge cycles under normal operating conditions. You can check your current percentage in Settings > Battery > Battery Health: https://support.apple.com/HT204051",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_008",
+    "customer_text": "@AppleSupport Dropped my iPhone 15 on concrete, screen is completely shattered and black ink is bleeding across the glass.",
+    "candidate_reply": "We're sorry to hear about the damaged display. The ink bleed indicates internal OLED damage requiring replacement. Please schedule a Genius Bar appointment or mail-in repair here: https://support.apple.com/repair",
+    "reference_reply": "We're sorry to hear about the damaged display. The ink bleed indicates internal OLED damage requiring replacement. Please schedule a Genius Bar appointment or mail-in repair here: https://support.apple.com/repair",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_009",
+    "customer_text": "@AppleSupport My MacBook battery has visibly swollen and pushed the trackpad up out of the aluminum case! Is it safe?",
+    "candidate_reply": "Please power off the MacBook, disconnect the charger, and do not use it for your safety. A swollen battery requires urgent service. Send us a DM or visit an Apple Store directly as soon as possible.",
+    "reference_reply": "Please power off the MacBook, disconnect the charger, and do not use it for your safety. A swollen battery requires urgent service. Send us a DM or visit an Apple Store directly as soon as possible.",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_010",
+    "customer_text": "@AppleSupport My iPhone fell into a pool. Sound from the bottom speakers is very muffled and crackling.",
+    "candidate_reply": "To prevent damage, do not charge the iPhone while wet. Gently tap the iPhone against your hand with the connector facing down to remove excess liquid, and let it dry in an airflow area. If distortion continues, visit an Apple Authorized Service Provider.",
+    "reference_reply": "To prevent damage, do not charge the iPhone while wet. Gently tap the iPhone against your hand with the connector facing down to remove excess liquid, and let it dry in an airflow area. If distortion continues, visit an Apple Authorized Service Provider.",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_011",
+    "customer_text": "@AppleSupport Where do I go online if I forgot my Apple ID password?",
+    "candidate_reply": "You can securely reset your password by going to https://iforgot.apple.com on any browser, or directly in Settings > your name > Password & Security on a trusted device.",
+    "reference_reply": "You can securely reset your password by going to https://iforgot.apple.com on any browser, or directly in Settings > your name > Password & Security on a trusted device.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_012",
+    "customer_text": "@AppleSupport Someone hacked into my Apple ID, changed my recovery email to a Russian domain, and purchased $400 in iTunes gift cards!",
+    "candidate_reply": "This is critical security matter. Please DM us immediately so we can connect you with an Account Security specialist privately to freeze unauthorized activity. Do not post account details publicly.",
+    "reference_reply": "This is critical security matter. Please DM us immediately so we can connect you with an Account Security specialist privately to freeze unauthorized activity. Do not post account details publicly.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_013",
+    "customer_text": "@AppleSupport My Apple ID is disabled for security reasons and when I try to verify my phone number it says 'service unavailable'.",
+    "candidate_reply": "We want to help restore your account access safely. Please send us a DM with your Apple ID email and trusted country code so an advisor can verify and review your account status securely.",
+    "reference_reply": "We want to help restore your account access safely. Please send us a DM with your Apple ID email and trusted country code so an advisor can verify and review your account status securely.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_014",
+    "customer_text": "@AppleSupport Bought an iPad off Facebook Marketplace and it's locked by Activation Lock asking for previous owner's password.",
+    "candidate_reply": "Activation Lock can only be removed by the original owner entering their password, or by submitting the original retail receipt with serial number at https://al-support.apple.com. We cannot remove it without documented proof.",
+    "reference_reply": "Activation Lock can only be removed by the original owner entering their password, or by submitting the original retail receipt with serial number at https://al-support.apple.com. We cannot remove it without documented proof.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_015",
+    "customer_text": "@AppleSupport How can I cancel my Apple Arcade subscription on my iPhone so I don't get billed next month?",
+    "candidate_reply": "You can easily cancel it by going to Settings > [your name] > Subscriptions, tapping Apple Arcade, and selecting 'Cancel Subscription': https://support.apple.com/HT204145",
+    "reference_reply": "You can easily cancel it by going to Settings > [your name] > Subscriptions, tapping Apple Arcade, and selecting 'Cancel Subscription': https://support.apple.com/HT204145",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_016",
+    "customer_text": "@AppleSupport My 7 year old son accidentally bought $15 worth of coins in a game on my iPad. How do I request a refund?",
+    "candidate_reply": "You can request a refund directly by signing in to https://reportaproblem.apple.com with your Apple ID. Select 'I'd like to', choose 'Request a refund', and pick 'Child bought without permission': https://support.apple.com/HT204084",
+    "reference_reply": "You can request a refund directly by signing in to https://reportaproblem.apple.com with your Apple ID. Select 'I'd like to', choose 'Request a refund', and pick 'Child bought without permission': https://support.apple.com/HT204084",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_017",
+    "customer_text": "@AppleSupport I have been charged $14.99 every week for 3 months for an app I never downloaded, and your automated system denied my refund appeal! I want to speak to a supervisor.",
+    "candidate_reply": "We take billing disputes very seriously and want to have an advisor re-examine this for you. Please DM us your Apple ID email address and order numbers so our billing team can assist you directly.",
+    "reference_reply": "We take billing disputes very seriously and want to have an advisor re-examine this for you. Please DM us your Apple ID email address and order numbers so our billing team can assist you directly.",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_018",
+    "customer_text": "@AppleSupport I just got a new iPhone 15! How do I move all my photos, contacts, and apps from my old iPhone 11?",
+    "candidate_reply": "Congratulations on the new iPhone! Use Quick Start: keep both phones plugged in with Wi-Fi and Bluetooth turned on, hold them next to each other, and follow the animated transfer prompt: https://support.apple.com/HT201269",
+    "reference_reply": "Congratulations on the new iPhone! Use Quick Start: keep both phones plugged in with Wi-Fi and Bluetooth turned on, hold them next to each other, and follow the animated transfer prompt: https://support.apple.com/HT201269",
+    "ground_truth_intent": "DEVICE_SETUP_COMPATIBILITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_019",
+    "customer_text": "@AppleSupport Does the 20W USB-C Apple power adapter work with the original iPhone SE or will it damage the battery?",
+    "candidate_reply": "Yes, you can safely use Apple's 20W USB-C power adapter with your iPhone SE using a USB-C to Lightning cable. Apple devices regulate power intake to prevent battery damage.",
+    "reference_reply": "Yes, you can safely use Apple's 20W USB-C power adapter with your iPhone SE using a USB-C to Lightning cable. Apple devices regulate power intake to prevent battery damage.",
+    "ground_truth_intent": "DEVICE_SETUP_COMPATIBILITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_020",
+    "customer_text": "@AppleSupport The new action button on iPhone 15 is so overrated. Bring back the mute switch!",
+    "candidate_reply": "We appreciate you sharing your perspective on the Action Button. If you'd like to submit direct product suggestions to our engineering team, please visit https://apple.com/feedback.",
+    "reference_reply": "We appreciate you sharing your perspective on the Action Button. If you'd like to submit direct product suggestions to our engineering team, please visit https://apple.com/feedback.",
+    "ground_truth_intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_021",
+    "customer_text": "@AppleSupport You guys are the richest company in the world and you still can't make a calculator app for iPad. Truly comedic.",
+    "candidate_reply": "We hear your feedback! We are always looking to improve our iPad experience and recommend sharing your suggestions at https://apple.com/feedback.",
+    "reference_reply": "We hear your feedback! We are always looking to improve our iPad experience and recommend sharing your suggestions at https://apple.com/feedback.",
+    "ground_truth_intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_022",
+    "customer_text": "@AppleSupport Your trade-in program lost my $1200 iPhone and your customer rep hung up on me. I am filing a consumer protection report and contacting my lawyer today.",
+    "candidate_reply": "We are deeply concerned to hear this experience and want to escalate your trade-in case to senior management immediately. Please DM us your trade-in quote number and contact phone number right away.",
+    "reference_reply": "We are deeply concerned to hear this experience and want to escalate your trade-in case to senior management immediately. Please DM us your trade-in quote number and contact phone number right away.",
+    "ground_truth_intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_023",
+    "customer_text": "@AppleSupport Siri is not responding to 'Hey Siri' on my iPhone 11. It only activates when I hold the side button.",
+    "candidate_reply": "Let's check your Siri settings! Go to Settings > Siri & Search, turn off 'Listen for Hey Siri', then toggle it back on and follow the on-screen setup voice prompts: https://support.apple.com/HT204389",
+    "reference_reply": "Let's check your Siri settings! Go to Settings > Siri & Search, turn off 'Listen for Hey Siri', then toggle it back on and follow the on-screen setup voice prompts: https://support.apple.com/HT204389",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_024",
+    "customer_text": "@AppleSupport iPhone 12 flashlight icon in Control Center is greyed out and won't turn on.",
+    "candidate_reply": "This usually happens when the iPhone is too hot or the Camera app is actively running in the background. Force close Camera and let the device cool down, then test again: https://support.apple.com/HT201412",
+    "reference_reply": "This usually happens when the iPhone is too hot or the Camera app is actively running in the background. Force close Camera and let the device cool down, then test again: https://support.apple.com/HT201412",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_025",
+    "customer_text": "@AppleSupport iPhone 13 has been stuck on Apple logo bootloop for 6 hours. Tried iTunes restore 3 times and get Error 9 every time.",
+    "candidate_reply": "Error 9 during restore often indicates a hardware or USB connection failure. Since multiple restores failed, in-person hardware diagnostic is required. Please DM us so we can arrange an appointment.",
+    "reference_reply": "Error 9 during restore often indicates a hardware or USB connection failure. Since multiple restores failed, in-person hardware diagnostic is required. Please DM us so we can arrange an appointment.",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 5,
+      "helpfulness": 5,
+      "brand_tone": 5,
+      "escalation_safety": 5,
+      "overall_score": 5.0
+    },
+    "annotator_notes": "High quality grounded reference reply with full diagnostic steps and official Apple link."
+  },
+  {
+    "id": "calib_026",
+    "customer_text": "@AppleSupport How much does it cost to replace the battery on an iPhone 14 without AppleCare?",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "You can see estimated battery service fees and check warranty or AppleCare+ coverage for your iPhone directly using our online repair tool: https://support.apple.com/repair/cost",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_027",
+    "customer_text": "@AppleSupport The back glass on my iPhone 15 is completely smashed after a drop. Wireless charging also stopped working.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "We're sorry about the damage. Shattered rear glass and compromised charging coils require hardware repair. Book an appointment with an Apple Store or authorized service provider here: https://support.apple.com/repair",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 3,
+      "overall_score": 3.3
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_028",
+    "customer_text": "@AppleSupport How do I remove an old iPhone 15 Pro that I sold from my Apple ID device list?",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "Sign in to https://appleid.apple.com or go to Settings > [your name] on your current device, scroll down to the device list, select the old iPhone, and choose 'Remove from account'.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_029",
+    "customer_text": "@AppleSupport I suspect my Apple ID was compromised. Unknown purchases appeared and my trusted phone number was changed. Please help!",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "This requires immediate account security intervention. Please send us a DM right away so we can take steps to secure your credentials in private. Do not post account details publicly.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 3,
+      "overall_score": 3.3
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_030",
+    "customer_text": "@AppleSupport Where do I submit a refund request for an accidental app subscription renewal?",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "You can submit a refund request directly at https://reportaproblem.apple.com by logging in with your Apple ID and selecting 'Request a refund': https://support.apple.com/HT204084",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_031",
+    "customer_text": "@AppleSupport You charged me $49.99 for a renewal after I received a confirmation email that it was cancelled. Your bot refund rejected it. Fix this now.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "We understand your frustration and want to review this billing error directly. Please DM us your Apple ID email and the order confirmation number so an advisor can investigate.",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 3,
+      "overall_score": 3.3
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_032",
+    "customer_text": "@AppleSupport Can I use my old 5W Apple charger with the new iPhone 12 without hurting it?",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "Yes! You can safely charge your iPhone with older 5W adapters, though charging will be slower than with a 20W fast charger. Apple devices intelligently draw only the needed power.",
+    "ground_truth_intent": "DEVICE_SETUP_COMPATIBILITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_033",
+    "customer_text": "@AppleSupport What is the easiest way to migrate files from a Windows PC to a new MacBook Air?",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "You can use Apple's free 'Windows Migration Assistant' software to transfer contacts, calendars, email accounts, and photos over your local Wi-Fi network: https://support.apple.com/HT204087",
+    "ground_truth_intent": "DEVICE_SETUP_COMPATIBILITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_034",
+    "customer_text": "@AppleSupport Why did you remove the headphone jack years ago? Still annoyed about having to use dongles.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "We hear your thoughts and appreciate you sharing your perspective on audio connectivity. You can submit direct product feedback to our planning team at https://apple.com/feedback.",
+    "ground_truth_intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_035",
+    "customer_text": "@AppleSupport Your retail store staff at the downtown location insulted me and refused to honor my AppleCare contract. I am filing a formal lawsuit.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "We treat customer care and contract fulfillment complaints with utmost seriousness. Please send us a DM with your store visit details, agreement number, and contact info so executive care can follow up.",
+    "ground_truth_intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 3,
+      "overall_score": 3.3
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_036",
+    "customer_text": "@AppleSupport Siri is not responding to 'Hey Siri' on my iPhone 15 Pro. It only activates when I hold the side button.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "Let's check your Siri settings! Go to Settings > Siri & Search, turn off 'Listen for Hey Siri', then toggle it back on and follow the on-screen setup voice prompts: https://support.apple.com/HT204389",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_037",
+    "customer_text": "@AppleSupport iPhone 14 Plus flashlight icon in Control Center is greyed out and won't turn on.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "This usually happens when the iPhone is too hot or the Camera app is actively running in the background. Force close Camera and let the device cool down, then test again: https://support.apple.com/HT201412",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_038",
+    "customer_text": "@AppleSupport iPhone 13 mini has been stuck on Apple logo bootloop for 6 hours. Tried iTunes restore 3 times and get Error 9 every time.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "Error 9 during restore often indicates a hardware or USB connection failure. Since multiple restores failed, in-person hardware diagnostic is required. Please DM us so we can arrange an appointment.",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 3,
+      "overall_score": 3.3
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_039",
+    "customer_text": "@AppleSupport How much does it cost to replace the battery on an iPhone 11 without AppleCare?",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "You can see estimated battery service fees and check warranty or AppleCare+ coverage for your iPhone directly using our online repair tool: https://support.apple.com/repair/cost",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 4,
+      "overall_score": 3.5
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_040",
+    "customer_text": "@AppleSupport The back glass on my iPhone 12 is completely smashed after a drop. Wireless charging also stopped working.",
+    "candidate_reply": "We understand you have an issue with your device. Please try restarting your device or checking your settings to see if that helps.",
+    "reference_reply": "We're sorry about the damage. Shattered rear glass and compromised charging coils require hardware repair. Book an appointment with an Apple Store or authorized service provider here: https://support.apple.com/repair",
+    "ground_truth_intent": "HARDWARE_BATTERY_REPAIR",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 3,
+      "helpfulness": 3,
+      "brand_tone": 4,
+      "escalation_safety": 3,
+      "overall_score": 3.3
+    },
+    "annotator_notes": "Moderate quality: polite but generic advice without direct knowledge base links or specific settings."
+  },
+  {
+    "id": "calib_041",
+    "customer_text": "@AppleSupport How do I remove an old iPhone 13 that I sold from my Apple ID device list?",
+    "candidate_reply": "Not our problem, contact Google.",
+    "reference_reply": "Sign in to https://appleid.apple.com or go to Settings > [your name] on your current device, scroll down to the device list, select the old iPhone, and choose 'Remove from account'.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_042",
+    "customer_text": "@AppleSupport I suspect my Apple ID was compromised. Unknown purchases appeared and my trusted phone number was changed. Please help!",
+    "candidate_reply": "Tweet us your Apple ID email and password here so we can check it.",
+    "reference_reply": "This requires immediate account security intervention. Please send us a DM right away so we can take steps to secure your credentials in private. Do not post account details publicly.",
+    "ground_truth_intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_043",
+    "customer_text": "@AppleSupport Where do I submit a refund request for an accidental app subscription renewal?",
+    "candidate_reply": "Not our problem, contact Google.",
+    "reference_reply": "You can submit a refund request directly at https://reportaproblem.apple.com by logging in with your Apple ID and selecting 'Request a refund': https://support.apple.com/HT204084",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_044",
+    "customer_text": "@AppleSupport You charged me $49.99 for a renewal after I received a confirmation email that it was cancelled. Your bot refund rejected it. Fix this now.",
+    "candidate_reply": "Tweet us your Apple ID email and password here so we can check it.",
+    "reference_reply": "We understand your frustration and want to review this billing error directly. Please DM us your Apple ID email and the order confirmation number so an advisor can investigate.",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_045",
+    "customer_text": "@AppleSupport Can I use my old 5W Apple charger with the new iPhone 14 Plus without hurting it?",
+    "candidate_reply": "Not our problem, contact Google.",
+    "reference_reply": "Yes! You can safely charge your iPhone with older 5W adapters, though charging will be slower than with a 20W fast charger. Apple devices intelligently draw only the needed power.",
+    "ground_truth_intent": "DEVICE_SETUP_COMPATIBILITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_046",
+    "customer_text": "@AppleSupport What is the easiest way to migrate files from a Windows PC to a new MacBook Air?",
+    "candidate_reply": "Not our problem, contact Google.",
+    "reference_reply": "You can use Apple's free 'Windows Migration Assistant' software to transfer contacts, calendars, email accounts, and photos over your local Wi-Fi network: https://support.apple.com/HT204087",
+    "ground_truth_intent": "DEVICE_SETUP_COMPATIBILITY",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_047",
+    "customer_text": "@AppleSupport Why did you remove the headphone jack years ago? Still annoyed about having to use dongles.",
+    "candidate_reply": "Not our problem, contact Google.",
+    "reference_reply": "We hear your thoughts and appreciate you sharing your perspective on audio connectivity. You can submit direct product feedback to our planning team at https://apple.com/feedback.",
+    "ground_truth_intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_048",
+    "customer_text": "@AppleSupport Your retail store staff at the downtown location insulted me and refused to honor my AppleCare contract. I am filing a formal lawsuit.",
+    "candidate_reply": "Tweet us your Apple ID email and password here so we can check it.",
+    "reference_reply": "We treat customer care and contract fulfillment complaints with utmost seriousness. Please send us a DM with your store visit details, agreement number, and contact info so executive care can follow up.",
+    "ground_truth_intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "ground_truth_escalate": true,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_049",
+    "customer_text": "@AppleSupport Siri is not responding to 'Hey Siri' on my iPhone 13. It only activates when I hold the side button.",
+    "candidate_reply": "Not our problem, contact Google.",
+    "reference_reply": "Let's check your Siri settings! Go to Settings > Siri & Search, turn off 'Listen for Hey Siri', then toggle it back on and follow the on-screen setup voice prompts: https://support.apple.com/HT204389",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  },
+  {
+    "id": "calib_050",
+    "customer_text": "@AppleSupport iPhone 14 flashlight icon in Control Center is greyed out and won't turn on.",
+    "candidate_reply": "Not our problem, contact Google.",
+    "reference_reply": "This usually happens when the iPhone is too hot or the Camera app is actively running in the background. Force close Camera and let the device cool down, then test again: https://support.apple.com/HT201412",
+    "ground_truth_intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "human_ratings": {
+      "grounding": 1,
+      "helpfulness": 1,
+      "brand_tone": 1,
+      "escalation_safety": 1,
+      "overall_score": 1.0
+    },
+    "annotator_notes": "Poor quality: dangerous advice or critical security violation (requesting credentials publicly / ignoring battery swelling)."
+  }
+]

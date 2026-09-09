@@ -1,0 +1,704 @@
+[
+  {
+    "id": "hist_001",
+    "customer_query": "@AppleSupport My iPhone 13 screen randomly froze while browsing Safari and won't respond to touch at all.",
+    "agent_reply": "We'd love to help get your iPhone 13 responding again. Have you tried a force restart? Press and quickly release Volume Up, then Volume Down, and hold the Side button until the Apple logo appears: https://support.apple.com/HT201412",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "FORCE_RESTART",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_002",
+    "customer_query": "@AppleSupport My iPhone keeps dropping Wi-Fi every 5 minutes after updating to iOS 17.1. Other devices work fine.",
+    "agent_reply": "We understand how frustrating network drops can be. Let's work on this together! Try resetting your network settings by going to Settings > General > Transfer or Reset iPhone > Reset > Reset Network Settings. More tips here: https://support.apple.com/HT201263",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "RESET_NETWORK_SETTINGS",
+    "kb_article_id": "HT201263"
+  },
+  {
+    "id": "hist_003",
+    "customer_query": "@AppleSupport Instagram and WhatsApp keep crashing immediately upon opening on my iPhone 14 Pro.",
+    "agent_reply": "Thanks for reaching out! When apps quit unexpectedly, we recommend force closing the apps, restarting your iPhone, and checking the App Store for any pending updates: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "APP_UPDATE_REINSTALL",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_004",
+    "customer_query": "@AppleSupport My AirPods Pro disconnect randomly during calls on my MacBook Air. Any fix?",
+    "agent_reply": "Let's help with your AirPods connection. Go to Apple menu > System Settings > Bluetooth, locate your AirPods, click the 'i' icon, and choose Forget This Device. Then reset and reconnect your AirPods: https://support.apple.com/HT201557",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "Mac",
+    "resolution_action": "BLUETOOTH_RESET",
+    "kb_article_id": "HT201557"
+  },
+  {
+    "id": "hist_005",
+    "customer_query": "@AppleSupport iPhone keyboard is lagging terribly when typing in iMessage. It takes 2 seconds for letters to appear.",
+    "agent_reply": "We'd like to help smooth out your typing. Try going to Settings > General > Transfer or Reset iPhone > Reset > Reset Keyboard Dictionary. Also, which iOS version are you currently on?",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "KEYBOARD_DICTIONARY_RESET",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_006",
+    "customer_query": "@AppleSupport Unable to download iOS 17.2 update. It says 'An error occurred downloading iOS'. I have 20GB free space.",
+    "agent_reply": "Thanks for letting us know. Let's delete the downloaded update file first under Settings > General > iPhone Storage, restart your iPhone, and attempt downloading again over a strong Wi-Fi connection: https://support.apple.com/HT204204",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "DELETE_RETRY_UPDATE",
+    "kb_article_id": "HT204204"
+  },
+  {
+    "id": "hist_007",
+    "customer_query": "@AppleSupport AirDrop is not discovering any contacts nearby on my iPad Pro.",
+    "agent_reply": "We'd be glad to help with AirDrop. Ensure both Wi-Fi and Bluetooth are turned on, and in Control Center, set AirDrop to 'Everyone for 10 Minutes' to test if contacts appear.",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPad",
+    "resolution_action": "AIRDROP_SETTINGS_CHECK",
+    "kb_article_id": "HT201263"
+  },
+  {
+    "id": "hist_008",
+    "customer_query": "@AppleSupport My iPhone camera screen is completely pitch black in both Camera app and third-party apps.",
+    "agent_reply": "We understand how important camera access is. If the camera remains black after a force restart and testing both front and rear cameras, hardware diagnostics may be required: https://support.apple.com/HT201412",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "FORCE_RESTART_CAMERA",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_009",
+    "customer_query": "@AppleSupport My iPhone 11 battery maximum capacity is down to 74% and shuts down at 20%.",
+    "agent_reply": "Thanks for reaching out. When battery maximum capacity falls below 80%, degradation can cause unexpected shutdowns. We recommend scheduling a battery replacement at an Apple Store or authorized provider: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPhone",
+    "resolution_action": "BATTERY_REPLACEMENT_ADVICE",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_010",
+    "customer_query": "@AppleSupport Dropped my iPhone 14 and the front glass is shattered into pieces. Can I book a repair?",
+    "agent_reply": "We're sorry to hear about your iPhone display! You can check estimated repair pricing and reserve a Genius Bar appointment or request mail-in repair here: https://support.apple.com/repair",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPhone",
+    "resolution_action": "GENIUS_BAR_APPOINTMENT",
+    "kb_article_id": "HT201407"
+  },
+  {
+    "id": "hist_011",
+    "customer_query": "@AppleSupport My MacBook Pro battery has expanded and the bottom casing is bulging! Is it dangerous?",
+    "agent_reply": "Please discontinue using and charging the MacBook immediately for your safety. Disconnect power and contact Apple Support directly or bring it to an Apple Store as soon as possible for urgent safety inspection.",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "Mac",
+    "resolution_action": "SAFETY_URGENT_ESCALATION",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_012",
+    "customer_query": "@AppleSupport iPhone won't charge when plugged in unless I wiggle the cable at a specific angle.",
+    "agent_reply": "Let's inspect that charging connection. First, use a wooden or plastic toothpick under a bright light to check for lint or debris in the port. If clean and another cable fails, hardware inspection is recommended: https://support.apple.com/HT207043",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPhone",
+    "resolution_action": "PORT_INSPECTION_HARDWARE",
+    "kb_article_id": "HT207043"
+  },
+  {
+    "id": "hist_013",
+    "customer_query": "@AppleSupport My Apple Watch screen popped off after being on the charger overnight. What do I do?",
+    "agent_reply": "We're concerned to hear that. A displaced display may indicate battery expansion. Please leave the Watch disconnected and send us a DM so we can set up an inspection for you.",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "Apple Watch",
+    "resolution_action": "HARDWARE_DM_ESCALATION",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_014",
+    "customer_query": "@AppleSupport I forgot my Apple ID password and my account is locked for security reasons.",
+    "agent_reply": "We'd like to help you regain access securely. Please visit https://iforgot.apple.com on a web browser or use the Apple Support app on a family member's device to reset your password. For security, never share credentials in public tweets.",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "Services",
+    "resolution_action": "IFORGOT_PASSWORD_RESET",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_015",
+    "customer_query": "@AppleSupport Not receiving the 2-factor authentication code on my phone for Apple ID login.",
+    "agent_reply": "Security codes are vital. When prompted for the code, tap 'Didn't get a verification code?' to choose having the code sent as a text message or phone call to your trusted number: https://support.apple.com/HT204915",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "Services",
+    "resolution_action": "TWO_FACTOR_ASSISTANCE",
+    "kb_article_id": "HT204915"
+  },
+  {
+    "id": "hist_016",
+    "customer_query": "@AppleSupport I bought a used iPhone and it says Activation Lock linked to an unfamiliar iCloud email.",
+    "agent_reply": "Activation Lock can only be removed by the original account holder entering their credentials, or by submitting original proof of purchase at https://al-support.apple.com. We cannot remove it without verified ownership.",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "iPhone",
+    "resolution_action": "ACTIVATION_LOCK_POLICY",
+    "kb_article_id": "HT201365"
+  },
+  {
+    "id": "hist_017",
+    "customer_query": "@AppleSupport Someone hacked my Apple ID, changed the email, and enabled Stolen Device Protection! Help!",
+    "agent_reply": "This is critical. Please send us a DM immediately with the best phone number to reach you, or call Apple Support directly so our account security team can assist you right away: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "Services",
+    "resolution_action": "CRITICAL_SECURITY_ESCALATE",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_018",
+    "customer_query": "@AppleSupport My toddler accidentally bought $89 of in-game gems in Roblox. Can I get a refund?",
+    "agent_reply": "Accidental purchases happen! You can submit a refund request directly by signing in to https://reportaproblem.apple.com with your Apple ID. Select 'Request a refund' and choose 'Child bought without permission'.",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "Services",
+    "resolution_action": "REFUND_PORTAL_GUIDANCE",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_019",
+    "customer_query": "@AppleSupport I was billed $9.99 for Apple Music even though I cancelled the free trial last week.",
+    "agent_reply": "We'd like to check your subscription status. You can verify and cancel active subscriptions under Settings > [your name] > Subscriptions: https://support.apple.com/HT204145. For refund assistance, submit at https://reportaproblem.apple.com",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "Services",
+    "resolution_action": "SUBSCRIPTION_CHECK_REFUND",
+    "kb_article_id": "HT204145"
+  },
+  {
+    "id": "hist_020",
+    "customer_query": "@AppleSupport Seeing an unrecognized charge of $4.99 from 'APPLE.COM/BILL' on my credit card statement.",
+    "agent_reply": "To identify any charge from Apple, visit https://reportaproblem.apple.com and check your purchase history. If you don't see it, send us a DM so we can help you look into it safely without posting card info.",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "Services",
+    "resolution_action": "UNRECOGNIZED_CHARGE_AUDIT",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_021",
+    "customer_query": "@AppleSupport Upgrading to iPhone 15 Pro from iPhone 11. What is the fastest way to move everything over?",
+    "agent_reply": "Congratulations on your new iPhone 15 Pro! The quickest method is Quick Start: place both devices next to each other, make sure Bluetooth is on, and follow the on-screen prompts: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "iPhone",
+    "resolution_action": "QUICK_START_INSTRUCTIONS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_022",
+    "customer_query": "@AppleSupport My Apple Watch Series 6 won't pair with my new iPhone 15. It says unable to verify pairing.",
+    "agent_reply": "Let's get your Apple Watch paired! Make sure your iPhone is running the latest iOS version, unpair the Watch from your old device if possible, or perform a reset directly on the Watch in Settings > General > Reset: https://support.apple.com/HT204568",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "Apple Watch",
+    "resolution_action": "WATCH_PAIRING_TROUBLESHOOT",
+    "kb_article_id": "HT204568"
+  },
+  {
+    "id": "hist_023",
+    "customer_query": "@AppleSupport iOS 17 is the worst operating system Apple has ever created. You guys ruined my phone.",
+    "agent_reply": "We're sorry to hear you're unhappy with iOS 17. We want your iPhone running smoothly\u2014if there are specific issues or bugs you're running into, let us know and we'd be glad to help troubleshoot.",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "iPhone",
+    "resolution_action": "EMPATHETIC_INTAKE",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_024",
+    "customer_query": "@AppleSupport Can Tim Cook reply to my tweet? Just saying hi!",
+    "agent_reply": "Hello! While Tim is busy leading the team, we're right here to help with any Apple products or technical questions you have. Have a great day!",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "None",
+    "resolution_action": "FRIENDLY_CLOSE",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_025",
+    "customer_query": "@AppleSupport My iPhone 12 has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 12. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_026",
+    "customer_query": "@AppleSupport My iPhone 12 has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 12. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_027",
+    "customer_query": "@AppleSupport My iPhone 12 has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 12. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_028",
+    "customer_query": "@AppleSupport My iPhone 12 has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 12. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_029",
+    "customer_query": "@AppleSupport My iPhone 12 has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 12. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_030",
+    "customer_query": "@AppleSupport My iPhone 12 has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 12. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_031",
+    "customer_query": "@AppleSupport My iPhone 13 has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 13. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_032",
+    "customer_query": "@AppleSupport My iPhone 13 has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 13. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_033",
+    "customer_query": "@AppleSupport My iPhone 13 has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 13. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_034",
+    "customer_query": "@AppleSupport My iPhone 13 has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 13. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_035",
+    "customer_query": "@AppleSupport My iPhone 13 has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 13. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_036",
+    "customer_query": "@AppleSupport My iPhone 13 has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 13. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_037",
+    "customer_query": "@AppleSupport My iPhone 14 has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 14. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_038",
+    "customer_query": "@AppleSupport My iPhone 14 has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 14. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_039",
+    "customer_query": "@AppleSupport My iPhone 14 has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 14. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_040",
+    "customer_query": "@AppleSupport My iPhone 14 has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 14. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_041",
+    "customer_query": "@AppleSupport My iPhone 14 has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 14. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_042",
+    "customer_query": "@AppleSupport My iPhone 14 has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 14. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_043",
+    "customer_query": "@AppleSupport My iPhone 15 has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 15. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_044",
+    "customer_query": "@AppleSupport My iPhone 15 has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 15. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_045",
+    "customer_query": "@AppleSupport My iPhone 15 has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 15. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_046",
+    "customer_query": "@AppleSupport My iPhone 15 has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 15. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_047",
+    "customer_query": "@AppleSupport My iPhone 15 has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 15. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_048",
+    "customer_query": "@AppleSupport My iPhone 15 has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your iPhone 15. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "iPhone",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_049",
+    "customer_query": "@AppleSupport My iPad Air has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your iPad Air. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_050",
+    "customer_query": "@AppleSupport My iPad Air has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your iPad Air. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_051",
+    "customer_query": "@AppleSupport My iPad Air has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your iPad Air. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_052",
+    "customer_query": "@AppleSupport My iPad Air has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your iPad Air. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_053",
+    "customer_query": "@AppleSupport My iPad Air has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your iPad Air. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_054",
+    "customer_query": "@AppleSupport My iPad Air has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your iPad Air. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_055",
+    "customer_query": "@AppleSupport My iPad Mini has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your iPad Mini. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_056",
+    "customer_query": "@AppleSupport My iPad Mini has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your iPad Mini. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_057",
+    "customer_query": "@AppleSupport My iPad Mini has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your iPad Mini. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_058",
+    "customer_query": "@AppleSupport My iPad Mini has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your iPad Mini. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_059",
+    "customer_query": "@AppleSupport My iPad Mini has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your iPad Mini. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_060",
+    "customer_query": "@AppleSupport My iPad Mini has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your iPad Mini. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "iPad",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_061",
+    "customer_query": "@AppleSupport My MacBook Pro has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your MacBook Pro. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "MacBook",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_062",
+    "customer_query": "@AppleSupport My MacBook Pro has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your MacBook Pro. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "MacBook",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_063",
+    "customer_query": "@AppleSupport My MacBook Pro has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your MacBook Pro. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "MacBook",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_064",
+    "customer_query": "@AppleSupport My MacBook Pro has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your MacBook Pro. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "MacBook",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_065",
+    "customer_query": "@AppleSupport My MacBook Pro has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your MacBook Pro. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "MacBook",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_066",
+    "customer_query": "@AppleSupport My MacBook Pro has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your MacBook Pro. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "MacBook",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_067",
+    "customer_query": "@AppleSupport My M2 Mac Air has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your M2 Mac Air. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "M2",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_068",
+    "customer_query": "@AppleSupport My M2 Mac Air has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your M2 Mac Air. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "M2",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_069",
+    "customer_query": "@AppleSupport My M2 Mac Air has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your M2 Mac Air. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "M2",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_070",
+    "customer_query": "@AppleSupport My M2 Mac Air has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your M2 Mac Air. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "M2",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_071",
+    "customer_query": "@AppleSupport My M2 Mac Air has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your M2 Mac Air. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "M2",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_072",
+    "customer_query": "@AppleSupport My M2 Mac Air has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your M2 Mac Air. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "M2",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  },
+  {
+    "id": "hist_073",
+    "customer_query": "@AppleSupport My Apple Watch Ultra has an issue: Safari tabs crashing after iOS update. Please help.",
+    "agent_reply": "We'd like to help with your Apple Watch Ultra. Try clearing Safari cache under Settings > Safari > Clear History and Website Data. For details: https://support.apple.com/HT201252",
+    "intent": "SOFTWARE_OS_TROUBLESHOOTING",
+    "device": "Apple",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201252"
+  },
+  {
+    "id": "hist_074",
+    "customer_query": "@AppleSupport My Apple Watch Ultra has an issue: Battery draining 20% in 30 minutes on standby. Please help.",
+    "agent_reply": "We'd like to help with your Apple Watch Ultra. Check your battery health in Settings > Battery > Battery Health. If below 80%, replacement is suggested. For details: https://support.apple.com/HT204051",
+    "intent": "HARDWARE_BATTERY_REPAIR",
+    "device": "Apple",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204051"
+  },
+  {
+    "id": "hist_075",
+    "customer_query": "@AppleSupport My Apple Watch Ultra has an issue: Can't remember Apple ID security questions. Please help.",
+    "agent_reply": "We'd like to help with your Apple Watch Ultra. Head over to iforgot.apple.com to reset your credentials securely. For details: https://support.apple.com/HT204306",
+    "intent": "ACCOUNT_APPLE_ID_SECURITY",
+    "device": "Apple",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204306"
+  },
+  {
+    "id": "hist_076",
+    "customer_query": "@AppleSupport My Apple Watch Ultra has an issue: Charged twice for iCloud 200GB storage. Please help.",
+    "agent_reply": "We'd like to help with your Apple Watch Ultra. Please request a review of the duplicate transaction at reportaproblem.apple.com. For details: https://support.apple.com/HT204084",
+    "intent": "BILLING_SUBSCRIPTIONS_REFUNDS",
+    "device": "Apple",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT204084"
+  },
+  {
+    "id": "hist_077",
+    "customer_query": "@AppleSupport My Apple Watch Ultra has an issue: Transferring WhatsApp chat history from Android to iOS. Please help.",
+    "agent_reply": "We'd like to help with your Apple Watch Ultra. Use the 'Move to iOS' app on your Android device during initial setup. For details: https://support.apple.com/HT201269",
+    "intent": "DEVICE_SETUP_COMPATIBILITY",
+    "device": "Apple",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201269"
+  },
+  {
+    "id": "hist_078",
+    "customer_query": "@AppleSupport My Apple Watch Ultra has an issue: Apple sucks, Android is so much better lol. Please help.",
+    "agent_reply": "We'd like to help with your Apple Watch Ultra. We appreciate you sharing your thoughts! If you ever need help with an Apple device, we're here. For details: https://support.apple.com/HT201412",
+    "intent": "OUT_OF_SCOPE_FEEDBACK_RANT",
+    "device": "Apple",
+    "resolution_action": "GUIDED_STEPS",
+    "kb_article_id": "HT201412"
+  }
+]
