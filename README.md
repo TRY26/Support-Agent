@@ -21,7 +21,7 @@ This repository is completely self-contained with **zero required external API k
 
 ```bash
 # 1. Navigate to the repository
-cd /Users/varsha/Desktop/hiver-support-agent
+cd /Support-Agent
 
 # 2. Run the evaluation harness (Evaluates 200 Golden Cases vs 2 Baselines in ~2 seconds)
 python3 run_evaluation.py
@@ -30,8 +30,8 @@ python3 run_evaluation.py
 python3 demo_agent.py
 
 # 4. (Optional) Run the Web Application Dashboard
-python3 web_app.py --server 8080
-# Open http://localhost:8080 in your browser!
+python3 web_app.py --server "port number"
+# Open http://localhost:"port number" in your browser!
 ```
 
 ---
