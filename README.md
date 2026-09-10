@@ -206,7 +206,4 @@ OK
 
 ---
 
-## 📬 Submission Information
-- **Submission Form**: [Hiver Take-Home Submission Notion Form](https://intelligent-bar-256.notion.site/39492cbf0da2800682cfc78a600a745f?pvs=105)
-- **Repo Location**: `/Users/varsha/Desktop/hiver-support-agent`
-- **Candidate Note**: All headline results reproduce in under 15 seconds via `python3 run_evaluation.py`.
+

@@ -2,9 +2,7 @@
 
 **Author:** SDE Intern Candidate  
 **Target Brand:** Apple Support (`@AppleSupport`)  
-**Primary Dataset:** Customer Support on Twitter (Kaggle / thoughtvector) + Curated Apple Support Knowledge Base  
-**Repository Location:** `/Users/varsha/Desktop/hiver-support-agent`  
-**Submission Form:** [Hiver SDE Intern Take-Home Submission](https://intelligent-bar-256.notion.site/39492cbf0da2800682cfc78a600a745f?pvs=105)
+**Primary Dataset:** Customer Support on Twitter (Kaggle / thoughtvector) + Curated Apple Support Knowledge Base.
 
 ---
 
