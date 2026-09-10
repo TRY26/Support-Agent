@@ -102,7 +102,7 @@ python3 web_app.py --server "port number"
 ## 📁 Repository Structure
 
 ```
-/Users/varsha/Desktop/hiver-support-agent/
+/
 ├── README.md                          # Master documentation & complete technical report
 ├── run_evaluation.py                  # Single-command reproduction script (<15 mins)
 ├── demo_agent.py                      # Interactive CLI to test customer tweets live
